@@ -11,12 +11,15 @@ end
 
 def turtle_traits(turtles)
   
-  traits = []
+  # traits = []
   
-  turtles.each do |turtle|
-    traits.push(turtle[:traits])
-  end
+  # turtles.each do |turtle|
+  #   traits.push(turtle[:traits])
+  # end
 
-  return traits
+  # return traits
+  
+  inverted = turtles.invert
+  
   
 end
