@@ -18,6 +18,8 @@ def greet_crew (crew)
     "Hello #{crew_member}."
     binding.pry
   end
+  
+  binding.pry
 
 end
 
