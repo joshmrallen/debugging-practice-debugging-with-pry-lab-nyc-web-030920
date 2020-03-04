@@ -15,7 +15,7 @@ end
 
 def greet_crew (crew)
   crew = crew.map do |crew_member| 
-    "Hello #{crew_member}."
+    crew_member = "Hello #{crew_member}"
     binding.pry
   end
   
