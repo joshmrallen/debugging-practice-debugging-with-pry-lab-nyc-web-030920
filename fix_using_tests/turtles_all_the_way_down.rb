@@ -17,5 +17,6 @@ def turtle_traits(turtles)
     traits.push(turtle[:traits])
   end
 
+  return traits
   
 end
