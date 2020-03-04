@@ -21,7 +21,6 @@ def turtle_traits(turtles)
     end
   end
 
-  # traits[1] = ["party dude"]
 
   return traits
   
