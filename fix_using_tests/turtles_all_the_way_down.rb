@@ -20,6 +20,8 @@ def turtle_traits(turtles)
   # return traits
   
   inverted = turtles.invert
+  info = inverted.keys
+  binding.pry
   
   
 end
