@@ -13,8 +13,12 @@ def turtle_traits(turtles)
   
   traits = []
   
-  turtles.each do |turtle|
-    traits.push(turtle[:traits])
+  turtles.map do |turtle|
+    turtle.each do |key, value| 
+      if key == :traits
+        traits.push(value)
+      end
+    end
   end
 
   return traits
